@@ -8,7 +8,7 @@ namespace WinFormsApp2.Implementations;
 
 public class AvtandilBookingManager : IBookingManager
 {
-    private int[,]? hall;
+    private int[,]?  hall;
 
     private int rows;
     private int columns;
