@@ -13,7 +13,7 @@ namespace WinFormsApp2
         public Form1()
         {
             InitializeComponent();
-            _bookingManager = new TengizBookingManager();
+            _bookingManager = new BookingManager();
         }
 
         private void DrawBoard(List<string> board)
