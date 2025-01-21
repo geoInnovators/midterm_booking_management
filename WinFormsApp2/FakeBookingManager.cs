@@ -6,18 +6,8 @@ using System.Threading.Tasks;
 
 namespace WinFormsApp2;
 
-public enum BookingRequestType
-{
-    Gather,  // ერთად დაჯდომა
-    Scatter, // ცალცალკე
-}
-public class Result {     
-    public bool IsSuccess { get; set; }
-    public string ErrorMessage { get; set; }
-    public string Value { get; set; }
-}
 
-public class BookingManager : IBookingManager
+public class FakeBookingManager : IBookingManager
 {
     int r;
     int c;
